@@ -2,6 +2,8 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <p>lol</p>
+    <main className='p-4'>
+      <p>lmao</p>
+    </main>
   )
 }
