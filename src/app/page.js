@@ -1,9 +1,12 @@
 import Image from 'next/image'
+import NavMenu from '@/components/NavMenu'
+import { LoginPage } from './login'
 
 export default function Home() {
   return (
-    <main className='p-4'>
-      <p>lmao</p>
+    <main className=''>
+      <NavMenu/>
+      <LoginPage/>
     </main>
   )
 }
